@@ -1,0 +1,95 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #02d08f;
+    background-color: #0c021b;
+}
+
+/* cabeçalho */
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #02d08f
+}
+
+/* galeria */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid #02d08f;
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-image {
+    background-image: url("../img/photo_1.jpg");
+}
+
+.card-2 .card-image {
+    background-image: url("../img/photo_2.jpg");
+}
+
+.card-3 .card-image {
+    background-image: url("../img/photo_3.jpg");
+}
+
+.card-4 .card-image {
+    background-image: url("../img/photo_4.jpg");
+}
+.card-5 .card-image {
+    background-image: url("../img/photo_5.jpg");
+}
+
+.card-6 .card-image {
+    background-image: url("../img/photo_6.jpg");
+}
+
+.card-7 .card-image {
+    background-image: url("../img/photo_7.jpg");
+}
+
+.card-8 .card-image {
+    background-image: url("../img/photo_8.jpg");
+}
+
+.btn {
+    display: block;
+    background-color: #02d08f;
+    color: #FFF;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    color: #02d08f;
+    border-color: #02d08f;
+}
+
+.card-description {
+    padding: 20px 10px;
+}
